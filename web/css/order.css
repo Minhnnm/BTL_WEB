@@ -1,0 +1,119 @@
+.container-thanhtoan{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin: 0px -12px;
+    justify-content: space-between;
+}
+/*.wrapper{
+    padding: 
+}*/
+.wrapper > h1{
+    text-align: center;
+    padding: 20px 0px 0px;
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.container-thanhtoan h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+
+    padding-bottom: 20px;
+}
+.thongtin{
+    padding: 20px 12px;
+    width: 50%;
+}
+.thongtin-hang{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 85px;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.muc-thongtin-hang{
+    flex-grow: 1;
+    padding: 0px 5px;
+    text-transform: capitalize;
+    /*border: 1px solid rgb(102, 95, 95);*/
+    background-color: #ebebeb;
+    transition: all 0.1s ease;
+}
+
+.thongtin-hang label{
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+
+.container-ghichu{
+    padding: 20px 12px;
+    width: 45%;
+    text-align: left;
+}
+
+.container-giohang{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.container-giohang ul li{
+    max-height: 100px;
+}
+.item-anh a img{
+    height: 100%;
+    width: 100px;
+}
+.btn-dathang{
+    cursor: pointer;
+}
+.thongtindathang{
+/*    min-height: 300px;
+    width: 800px;*/
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 15px;
+}
+
+.thongtindathang h2{
+    display: block;
+    font-size: 3.5rem;
+    padding: 5px 0px 10px;
+    line-height: 2.0rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.thongtindathang h5{
+    font-size: 1.7rem;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    line-height: 2.0rem;
+    font-weight: 400;
+}
+.muc-thongtin{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: 20px;
+    display: flex;
+    text-transform: capitalize;
+}
+.chitietdonhang h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.email {
+    text-transform: none;
+}
+.rowClick{
+    background-color: var(--trang);
+    border: 2px solid  rgba(178, 178, 207, 0.74);
+}
+.failPass{
+     border: 2px solid  rgba(236, 160, 160, 0.76);
+}

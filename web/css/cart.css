@@ -1,0 +1,163 @@
+.wrapper{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0px 12px;
+}
+.content-giohang{
+    text-align: center;
+    padding: 35px 0px;
+}
+.content-giohang h1{
+    font-size: 3.6rem;
+    line-height: 2.0rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -12px;
+}
+
+
+/* css cho  phần giỏ hàng  */
+.container-giohang{
+    padding: 0px 12px;
+    width: 60%;
+}
+
+/* tiêu đề cho phần giỏ hàng và đơn hàng*/
+ h5.header{
+    font-size: 2.0rem;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+/* css vùng chứa đơn hàng */
+.giohang{
+    background-color: var(--trang);
+    box-shadow: 0 0 4px rgb(0 0 0 / 8%);
+}
+.giohang ul{
+    padding: 15px 15px 0px 15px;
+    text-align: center;
+    font-size: 2.0rem;
+    vertical-align: middle;
+    min-height: 100px;
+}
+
+.muc-giohang{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 0px; 
+    border-bottom: 1px solid rgba(65, 59, 59, 0.37);
+}
+
+
+.muc-thongtin{
+    font-size: 1.7rem;
+    padding: 10px;
+    text-align: left;
+    flex-grow: 1;
+}
+.item-anh{
+    width: 15%;
+}
+.item-anh a img{
+      width: 100%;
+      text-decoration: none;
+}
+.muc-mota{
+    width: 40%;
+    text-transform: capitalize;
+}
+
+.muc-gia{
+    width: 20%;
+   font-weight: 400;
+   color: var(--do);
+}
+
+.muc-dem{
+    width: 20%;
+    display: flex;
+    font-size: 1.8rem;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-top: -5px;
+}
+.muc-dem *{
+    flex-grow: 1;
+    flex-basis: 33.3333%;
+    display: block;
+    padding: 5px 5px;
+    background-color: var(--trang);
+    cursor: pointer;
+}
+.themsanpham, .capnhat, .xoasanpham{
+    cursor: pointer;
+}
+.xoasanpham{
+    margin-left: 37px;
+    margin-right: 37px;
+}
+.muc-dem span{
+        border-left: 1px solid #e0e0e0;
+        border-right: 1px solid #e0e0e0;
+}
+/* css cho vung đơn hang */
+.container-dathang{
+    padding: 0px 12px;
+    margin-left: 20px;
+    width: 30%;
+}
+.dathang{
+    padding: 15px 20px;
+    background-color: var(--trang);
+    box-shadow: 0 0 4px rgb(0 0 0 / 8%);
+}
+
+.thongtin-dathang-hang{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-size: 1.7rem;
+    line-height: 2.0rem;
+    font-weight: 400;
+}
+.tong-dathang{
+    padding: 0px 15px;
+    margin: 15px 0px 10px;
+    font-weight: bold;
+}
+span#tong-tien{
+    color: var(--do);
+}
+
+.thanhtoan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 20px;
+    
+}
+
+.thanhtoan a{
+    display: block;
+    width: 50%;
+    padding: 15px 0px;
+    color: var(--trang);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 2.0rem;
+    font-weight: 550;
+    background-color: var(--do);
+}
+
+.thanhtoan a:hover{
+    background-color: rgb(94, 17, 17);
+}

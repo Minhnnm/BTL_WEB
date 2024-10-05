@@ -1,0 +1,35 @@
+.container-thanhtoan{
+    padding: 0;
+    padding-bottom: 10px;
+}
+.noidung-formdangnhap{
+    padding-bottom: 15px;
+}
+.thongtin{
+    flex-grow: 1;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+
+}
+.muc-thongtin-hang{
+    border: none;
+    background-color: #ebebeb;
+    transition: all 0.1s ease;
+}
+.button{
+    margin-top: 20px;
+}
+.form-hang {
+    margin-top: 25px;
+}
+.rowClick{
+    background-color: var(--trang);
+    border: 2px solid  rgba(178, 178, 207, 0.74);
+}
+.thongbao{
+    background-color: #dff0d8;
+}
+.thongbao h5{
+    color: #3c763d;
+}

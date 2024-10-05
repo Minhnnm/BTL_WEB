@@ -1,0 +1,62 @@
+.chitietsp{
+    padding: 0px 20px;
+    width: 80%;
+    margin-bottom: 50px;
+    background-clip: content-box;
+
+}
+.chitietsp-noidung{
+    display: flex;
+    background-color: var(--trang);
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    justify-content: space-around;
+
+}
+.chitiet-img{
+    width: 40%;
+    padding-left: 50px;
+
+}
+.chitiet-img img{
+    width: 100%;
+}
+
+.chitiet-thongtin{
+    width: 50%;
+    text-align: left;
+
+
+} 
+.chitiet-thongtin> *{
+    display: block;
+    font-size: 2.0rem;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    min-height: 60px;
+
+}
+.chitiet-thongtin .ten{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.chitiet-thongtin .gia{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--do);
+}
+.chitiet-thongtin .soluong .muc-thongtin{
+    width: 30%;
+    padding-left: 0px;
+}
+
+.sanpham-lienquan{
+    padding: 20px 10px;
+}
+.sanpham-lienquan h1{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}

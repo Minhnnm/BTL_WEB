@@ -1,0 +1,76 @@
+.noidung-dangnhap{
+    text-align: center;
+    padding: 40px 0px 50px;
+}
+.noidung-dangnhap h1{
+    font-size: 3.3rem;
+    line-height: 2.0rem;
+    font-weight: 560;
+    text-transform: uppercase;
+}
+.form-dangnhap{
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 50px;
+}
+.noidung-formdangnhap{
+    width: 600px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+    background-color: var(--trang);
+    margin: 0  auto;
+    margin-bottom: 40px;
+    padding: 20px 40px 40px 40px;
+}
+.noidung-formdangnhap form{
+    width: 100%;
+    display: block;
+}
+.thongbao{
+    visibility: visible;
+    padding: 10px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+.thongbao h5{
+    font-size: 1.5rem;
+    color: var(--do);
+    font-weight: 500;
+}
+.form-hang{
+    display: flex;
+    padding: 5px 0px;
+}
+.muc-form-hang{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0px 15px;
+    border:  1px solid rgba(0,0,0,.14);
+    border-radius: 3px;
+    height: 40px;
+    
+}
+
+.button{
+    padding: 10px 0px;
+    margin-top: 10px;
+    background-color:#ed3324;
+    border-radius: 4px;
+}
+.button input{
+    background-color:#ed3324;
+    color: var(--trang);
+    border: none;
+    font-size: 2.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.button:hover{
+    opacity: 0.7;
+}
+.dangnhap{
+    padding-top: 25px;
+    font-size: 1.2rem;
+}
